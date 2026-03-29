@@ -228,12 +228,12 @@ bool CClientViewport::KeyInput(int down, int keynum, const char *pszCurrentBindi
 		else
 		{
 			// Enter gets out of Spectator Mode by bringing up the Team Menu
-			if (m_iUser1)
-			{
-				if (keynum == K_ENTER || keynum == K_KP_ENTER)
-				{
-					ShowVGUIMenu(MENU_TEAM);
-					return 0;
+			//if (m_iUser1)
+			//{
+				//if (keynum == K_ENTER || keynum == K_KP_ENTER)
+				//{
+					//ShowVGUIMenu(MENU_TEAM);
+				//	return 0;
 				}
 			}
 		}
